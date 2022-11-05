@@ -1,0 +1,87 @@
+  
+  
+  
+  .temperature_main
+  {
+      max-width: 870px;
+      height: 440px;
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: rgba(13, 5, 108, 0.801);
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, .25);
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+      backdrop-filter: 5px;
+      margin-top: 215px;
+      margin-left: 530px;
+      margin-right: 0px;
+  
+  }
+  
+  
+  .temperature_title
+  {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    margin-bottom:0px;
+    margin-top: 0px;  
+  }
+  
+  .input_Fah{
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    /* max-width:fit-content; */
+    width: 40%;
+    margin-top: 0px;
+    /* margin-bottom: 80px; */
+    border: 2px solid black;
+    border-radius: 1px;
+    font-size:medium;
+  
+  }
+  
+  .temp_img{
+    height: 80px;
+    /* margin-bottom: 100px; */
+    /* margin-left: 10px; */
+  }
+  
+  .input_Cal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-align: center;
+    padding: 15px;
+    /* max-width:fit-content; */
+    width: 40%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 1px;
+    font-size:medium;
+  
+  }
+  
+  .leftBt{
+   
+    max-width: 100%;
+    padding: 15px;
+    color: whitesmoke;
+    background-color: blue;
+    margin-right: 150px;
+    cursor: pointer;
+  }
+  
+  .rightBt{
+      max-width: 100%;
+      padding: 15px;
+      color: whitesmoke;
+      background-color: blue;
+      margin-left: 10px;
+      cursor: pointer;
+  
+  }
