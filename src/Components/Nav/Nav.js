@@ -4,7 +4,7 @@ import logo from "../Assets/logo.gif";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 
-export default function Nav() {
+function Nav() {
   return (
     <div>
     <nav className="nav">
@@ -36,3 +36,6 @@ function CustomLink({ to, children, ...props }) {
 
   )
 }
+
+
+export default Nav;

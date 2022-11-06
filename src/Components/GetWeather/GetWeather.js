@@ -72,7 +72,7 @@ function GetWeather() {
                                 className="input"
                                 placeholder="Enter the city..."
                                 onChange={e => setweather(e.target.value)}
-                                value={weather}
+                                // value={weather}
                                 onKeyPress={weatherData}
                                 id="inputVal"
                                 
