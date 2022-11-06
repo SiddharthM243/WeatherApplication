@@ -20,8 +20,8 @@ function GetWeather() {
                 .then(res => (res.json()))
                 .then(result => {
                     setForm(result);
-                    setweather('');
-                    console.log(result)
+                    // setweather('');
+                    // console.log(result)
 
                 });
 
